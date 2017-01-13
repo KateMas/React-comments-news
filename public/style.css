@@ -251,7 +251,7 @@ nav a.active {
 .wrapper p, .popup {
     text-align: center;
 }
-.wrapper-news {
+.wrapper-news, .one-news {
     margin-bottom: 20px;
     padding: 20px;
     background-color: #8dc5e6;
@@ -264,6 +264,29 @@ nav a.active {
     text-decoration: none;
     color: #fff;
 }
-.wrapper-news p {
+.wrapper-news p, .one-news p {
     text-align: left;
+}
+.one-news {
+    margin-top: 50px;
+}
+.one-news h2 {
+    font-size: 24px;
+    line-height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+}
+.one-news p {
+    padding: 0 30px;
+}
+.link-news {
+    display: inline-block;
+    padding: 10px;
+    background-color: #8dc5e6;
+    border-radius: 10px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #fff;
 }
