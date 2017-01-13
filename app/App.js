@@ -14,9 +14,8 @@ ReactDom.render(
         <Route path="/" component={Main}>
             <IndexRoute component={PageHome} />
             <Route path="comments" component={PageComment} />
-            <Route path="news" component={PageNews}>
-                <Route path="/:newsId" component={PageNewsOne} />
-            </Route>
+            <Route path="news" component={PageNews}></Route>
+            <Route path="/news/:newsId" component={PageNewsOne} />
             <Route path="*" component={Page404} />
         </Route>
     </Router>,
